@@ -34,7 +34,7 @@ public class addform extends javax.swing.JFrame {
         Connection conn=null;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conn= DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/orange", "root", "qw4hd1997");
+            conn= DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/orange", "root", "22MIS0391Monesh#");
             System.out.println("Succesfully");
             return conn;
         } catch (Exception e) {
